@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+div {
+	border:2px solid black;
+    background-color : lightblue;
+	height :200px;
+	width : 200px;
+	position : relative;
+	
+}
+p {
+	position : absolute;
+	color : purple;
+	top : 50%;
+	left : 50%;
+	transform:translate(-50%,-50%)
+}
